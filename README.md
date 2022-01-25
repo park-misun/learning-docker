@@ -3,6 +3,19 @@
 docker compose 설치
 ```
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-![image](https://user-images.githubusercontent.com/14273433/151012036-902fdcdf-e065-4395-ae7c-4ec3ef80c336.png)
 ```
 
+docker compose 권한 부여
+```
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
+Azure CLI 설치
+```
+apt install azure-cli
+```
+
+Azure 컨테이너 이미지 저장을 위한 ACR(Azure Container Registry) 생성
+```
+az group create --name user20acr --location eastus
+```
