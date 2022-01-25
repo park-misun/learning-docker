@@ -42,6 +42,10 @@ cd azure-voting-app-redis/
 docker-compose up -d
 ```
 
+리소스 정리
+```
+docker-compose down
+```
 
 
 
