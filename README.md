@@ -23,12 +23,12 @@ apt install azure-cli
 
 Azure 컨테이너 이미지 저장을 위한 ACR(Azure Container Registry) 생성
 ```
-az group create --name user20acr --location eastus
+az group create --name myResourceGroup1 --location eastus
 ```
 
 Azure ACR 생성
 ```
-az acr create --resource-group user20acr --name user20acr --sku Basic
+az acr create --resource-group myResourceGroup1 --name user20acr --sku Basic
 ```
 
 소스코드 다운로드
