@@ -28,7 +28,7 @@ az group create --name myResourceGroup1 --location eastus
 
 Azure ACR 생성
 ```
-az acr create --resource-group myResourceGroup1 --name user20acr --sku Basic
+az acr create --resource-group myResourceGroup1 --name david20acrdemo --sku Basic
 ```
 
 소스코드 다운로드
