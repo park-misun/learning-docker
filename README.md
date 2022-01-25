@@ -19,3 +19,10 @@ Azure 컨테이너 이미지 저장을 위한 ACR(Azure Container Registry) 생�
 ```
 az group create --name user20acr --location eastus
 ```
+
+Azure ACR 생성
+```
+az acr create --resource-group user20acr --name user20acr --sku Basic
+```
+
+
