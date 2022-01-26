@@ -48,6 +48,12 @@ docker-compose down
 ```
 
 
+ACR URL확인
+```
+az acr list --resource-group myResourceGroup1 --query "[].{acrLoginServer:loginServer}" --output table
+```
+
+
 
 
 
